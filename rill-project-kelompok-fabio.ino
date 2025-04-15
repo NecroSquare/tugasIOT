@@ -9,12 +9,12 @@
 #define DEVICE_CREDENTIAL "9CEY88PJ3Ed1yVH7"
 
 // WiFi credentials
-const char* WIFI_SSID = "glorp";
-const char* WIFI_PASSWORD = "cciscute";
+const char* WIFI_SSID = "isi_id_wifi_mu"; // Isi dengan ID wifi mu
+const char* WIFI_PASSWORD = "isi_password_wifi_mu"; // Isi dengan password wifi mu
 
 // Telegram Bot Token and Chat ID
-#define BOT_TOKEN "your_bot_token_here"  // Replace with your bot token
-#define CHAT_ID "your_chat_id_here"      // Replace with your chat ID
+#define BOT_TOKEN "isi_bot_token_mu_disini"  // BOT TOKEN
+#define CHAT_ID "isi_chat_idi_mu_disini"      // CHAT ID
 
 // Pin definitions
 #define LED_PIN 13
@@ -31,7 +31,7 @@ UniversalTelegramBot bot(BOT_TOKEN, client);
 // Variables
 bool fireDetected = false;
 unsigned long lastDetectionTime = 0;
-const unsigned long detectionInterval = 60000; // 1 minute cooldown between notifications
+const unsigned long detectionInterval = 60000; // 1 menit interval
 String fireStatusText = "✅ Sistem normal";
 
 void setup() {
